@@ -27,6 +27,6 @@ ReactJS Basic Notes and Some Apps
 * Small E-commerce Site [GO](https://github.com/HopeMashal/Small-ecommerce-site)
 * Flash Cards [GO](https://github.com/HopeMashal/Flash-cards)
 * Sudoku Game [GO](https://github.com/HopeMashal/Mid-project)
-* Map [GO](https://github.com/HopeMashal/Map-Project)
-* Todo List - ReactTS [GO](https://github.com/HopeMashal/TodoList-React-TypeScript)
+* Holy Places Map [GO](https://github.com/HopeMashal/Map-Project)
+* Hope Todo List - ReactTS [GO](https://github.com/HopeMashal/TodoList-React-TypeScript)
 * Filmy [GO](https://github.com/HopeMashal/filmy-front)
