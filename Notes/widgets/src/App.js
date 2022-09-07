@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { BrowserRouter, Route } from "react-router-dom";
 import Accordion from "./components/Accordion";
 import Search from "./components/Search";
 import Dropdown from "./components/Dropdown";
 import Translate from "./components/Translate";
+import Header from "./components/Header";
 
 const items = [
   {
@@ -35,9 +37,38 @@ const options = [
 ];
 
 const App = () => {
+  const [selected, setSelected] = useState(options[0]);
+  const [showDropdown, setShowDropdown] = useState(true);
+
   return (
-    <div>
-      <Translate />
+    <div className="ui container">
+      <BrowserRouter>
+        <div>
+          <Header />
+          <Route path="/accordion" exact>
+            <Accordion items={items} />
+          </Route>
+          <Route path="/list" exact>
+            <Search />
+          </Route>
+          <Route path="/dropdown" exact>
+            <button onClick={() => setShowDropdown(!showDropdown)}>
+              Toggle Dropdown
+            </button>
+            {showDropdown ? (
+              <Dropdown
+                label="Select a Color"
+                selected={selected}
+                onSelectedChange={setSelected}
+                options={options}
+              />
+            ) : null}
+          </Route>
+          <Route path="/translate" exact>
+            <Translate />
+          </Route>
+        </div>
+      </BrowserRouter>
     </div>
   );
 };
