@@ -12,6 +12,7 @@ ReactJS Basic Notes and Some Apps
   * Making API requests with React
   * Building List of Records
   * Ref's for DOM Access
+* Videos [GO](https://github.com/HopeMashal/React-JS/tree/master/Notes/videos/src)
 
 # Apps
 
