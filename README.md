@@ -13,6 +13,11 @@ ReactJS Basic Notes and Some Apps
   * Building List of Records
   * Ref's for DOM Access
 * Videos [GO](https://github.com/HopeMashal/React-JS/tree/master/Notes/videos/src)
+* Accordion, List, Dropdown, and Translation [GO](https://github.com/HopeMashal/React-JS/tree/master/Notes/widgets/src)
+  * Hooks in React
+  * React Router
+* Stream [GO](https://github.com/HopeMashal/React-JS/tree/master/Notes/client/src)
+  * React Router
 
 # Apps
 
