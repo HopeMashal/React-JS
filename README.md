@@ -21,3 +21,12 @@ ReactJS Basic Notes and Some Apps
 
 # Apps
 
+* Dice Game [GO](https://github.com/HopeMashal/Dice-Game)
+* Match Finding [GO](https://github.com/HopeMashal/Match-finding)
+* Shoes App [GO](https://github.com/HopeMashal/Shoes-app)
+* Small E-commerce Site [GO](https://github.com/HopeMashal/Small-ecommerce-site)
+* Flash Cards [GO](https://github.com/HopeMashal/Flash-cards)
+* Sudoku Game [GO](https://github.com/HopeMashal/Mid-project)
+* Map [GO](https://github.com/HopeMashal/Map-Project)
+* Todo List - ReactTS [GO](https://github.com/HopeMashal/TodoList-React-TypeScript)
+* Filmy [GO](https://github.com/HopeMashal/filmy-front)
